@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "umbral",
+  "version": "${version}",
+  "name": "Umbral",
+  "description": "A psychological horror experience that watches the dark.",
+  "authors": ["EnderDevelopment"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.enderdevelopment.umbral.UmbralMod"],
+    "client": ["com.enderdevelopment.umbral.UmbralClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
